@@ -46,3 +46,55 @@ p{
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
 }
+.donet-amout-container{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.donet-amout-header{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.donet-amout-display{
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+.donet-amout-display div{
+    margin: 10px;
+    padding: 10px;
+}
+
+.active{
+    border: 2px solid salmon;
+    color: #e74c3c;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.donet-amout-input{
+    margin: 20px;
+    text-align: center;
+    
+}
+.donet-amout-input input{
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgba(00, 00, 00, .5);
+}
+.donet-amout-input input[placeholder]{
+    text-align: center;
+}
+
