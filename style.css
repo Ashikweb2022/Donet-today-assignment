@@ -35,7 +35,7 @@ p{
     background-image: url(images/donation3.jpg);
     position: relative;
 }
-.heading-template{
+.center{
     color: #ffffff;
     position: absolute;
     left: 50%;
@@ -46,22 +46,21 @@ p{
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
 }
-.donet-amout-container{
+.section-container{
     width: 70%;
     text-align: center;
     margin: 0 auto;
 }
-.donet-amout-header{
+.contaner-header{
     margin: 20px;
     padding: 10px;
     text-align: center;
 }
-.donet-amout-display{
+.item-flex-row{
 
     text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
-    font-weight: bold;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,16 +70,14 @@ p{
 .donet-amout-display div{
     margin: 10px;
     padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .active{
     border: 2px solid salmon;
     color: #e74c3c;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
 }
 .donet-amout-input{
     margin: 20px;
@@ -97,4 +94,48 @@ p{
 .donet-amout-input input[placeholder]{
     text-align: center;
 }
+.feedback-template{
+    background-color:rgba(255, 255, 00, .2);
+    width: 70%;
+    height: 150px;
+    position: relative;
+    margin: 0 auto;
+}
+.feedback-input{
+    width: 500px;
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
 
+}
+input[type="email"]
+{
+    background-color: #ffffff;
+    position: relative;
+    width: 340px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 5px 0 0 5px;
+    
+}
+input[type="submit"]
+{
+    background-color: #e74c3c;
+    position: relative;
+    left: -5px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+}
