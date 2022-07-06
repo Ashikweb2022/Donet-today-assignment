@@ -3,6 +3,46 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.container{
+    width: 95%;
+    margin: 50px;
+    background-color:whitesmoke;
+    text-align: center;
+}
 h1{
-    color: blue;
+    font-size: 40px;
+    margin: 10px;
+}
+p{
+    font-size: 18px;
+    margin: 10px;
+}
+.btn{
+    background-color: #e74c3c;
+    color: #ffffff;
+    margin: 2px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#heading{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/donation3.jpg);
+    position: relative;
+}
+.heading-template{
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 }
