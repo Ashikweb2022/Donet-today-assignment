@@ -90,10 +90,7 @@ p{
     margin: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-
-
+    align-items: center
 }
 
 .active{
@@ -198,10 +195,7 @@ input[type="submit"]
     outline: none;
     
     border-radius: 0 5px 5px 0;
-    -webkit-border-radius: 0 5px 5px 0;
-    -moz-border-radius: 0 5px 5px 0;
-    -ms-border-radius: 0 5px 5px 0;
-    -o-border-radius: 0 5px 5px 0;
+
 }
 .footer{
     background-color: #2c3e50;
